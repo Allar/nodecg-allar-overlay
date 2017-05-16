@@ -1,5 +1,5 @@
 {
-  "name": "allar-nodecg-background",
+  "name": "nodecg-allar-overlay",
   "dependencies": {
     "nodecg-replicant-input": "NodeCGElements/nodecg-replicant-input",
     "paper-radio-button": "PolymerElements/paper-radio-button#~1.0.12",

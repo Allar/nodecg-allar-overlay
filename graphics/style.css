@@ -1,0 +1,130 @@
+body {
+    background-image: url("main.png");
+    background-color: rgba(0,0,0,0.0);
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 78px;
+    width: 100%;
+    height: 78px;
+}
+
+header span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 2em;
+    vertical-align: middle;
+}
+
+header .topic {
+    margin-left: 16px;
+    float: left;
+}
+
+header .medias {
+    position: absolute;
+    right: 16px;
+    bottom: 0;
+    text-align: right;
+    overflow: hidden;
+}
+
+header .medias i {
+    vertical-align: middle;
+}
+
+.nowplaying, .recentfollower, .followeralert, .chat {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.chat {
+    top: 550px;
+    right: 0px;
+}
+
+.nowplaying {
+    top: 81px;
+    right: 0px;
+}
+
+.recentfollower {
+    bottom: 0px;
+    left: 0px;
+}
+
+.followeralert {
+    top: 200px;
+    left: 560px;
+}
+
+/* SPRITE SHEETS */
+.logo {
+    background-image: url(logo-sheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.logo-beam-logo {
+    width: 48px;
+    height: 48px;
+    background-position: -5px -5px;
+}
+
+.logo-hitbox-logo {
+    width: 36px;
+    height: 48px;
+    background-position: -63px -5px;
+}
+
+.logo-twitch-logo {
+    width: 46px;
+    height: 48px;
+    background-position: -5px -63px;
+}
+
+.logo-twitter-logo {
+    width: 58px;
+    height: 48px;
+    background-position: -61px -63px;
+}
+
+.logo-youtube-logo {
+    width: 69px;
+    height: 48px;
+    background-position: -109px -5px;
+}
+
+/* Generated Anims */
+
+.medias-anim-down-in{
+    animation: animDown cubic-bezier(0.86, 0, 0.07, 1) 20s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+    animation-direction: alternate
+}
+
+@keyframes animDown {
+  0% {
+    -webkit-transform:  translate(0px, 81px)  ;
+  }
+  40% {
+    -webkit-transform:  translate(0px,81px)  ;
+  }
+  60% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+}
+

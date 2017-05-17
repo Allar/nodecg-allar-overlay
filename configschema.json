@@ -3,7 +3,7 @@
 
     "type": "object",
     "properties": {
-        "restream_chat_url": { "type": "string" }
+        "restream_chat_url": { "type": "string", "default": "http://restream.io/webchat?id=23598&guid=8373da354801479e8258c0d2427a49f6" }
     },
     "required": ["restream_chat_url"]
 }

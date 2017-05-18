@@ -37,7 +37,7 @@ header .medias i {
     vertical-align: middle;
 }
 
-.nowplaying, .recentfollower, .followeralert, .chat {
+.nowplaying, .recentfollower, .followeralert, .tipalert, .recenttipper, .chat {
     position: absolute;
     margin: 0;
     padding: 0;
@@ -59,10 +59,18 @@ header .medias i {
     left: 0px;
 }
 
-.followeralert {
+
+.recenttipper {
+    bottom: 0px;
+    left: 500px;
+}
+
+.followeralert, .tipalert {
     top: 200px;
     left: 416px;
 }
+
+
 
 /* SPRITE SHEETS */
 .logo {

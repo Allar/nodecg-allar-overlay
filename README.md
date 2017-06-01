@@ -22,7 +22,7 @@ nodecg install Allar/nodecg-recentfollower
 nodecg install Allar/nodecg-twitch-service
 nodecg install Allar/nodecg-streamtip-service
 nodecg install Allar/nodecg-tips-recent
-nodecg isntall Allar/nodecg-tips-alert
+nodecg install Allar/nodecg-tips-alert
 
 cd ./bundles/nodecg-allar-overlay
 nodecg defaultconfig

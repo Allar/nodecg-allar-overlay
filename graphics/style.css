@@ -37,7 +37,7 @@ header .medias i {
     vertical-align: middle;
 }
 
-.nowplaying, .recentfollower, .followeralert, .tipalert, .recenttipper, .chat {
+.nowplaying, .recentfollower, .followeralert, .tipalert, .recenttipper, .chat, .muxyalert, .muxycheer {
     position: absolute;
     margin: 0;
     padding: 0;
@@ -45,8 +45,13 @@ header .medias i {
 }
 
 .chat {
-    top: 550px;
+    top: 400px;
     right: 0px;
+}
+
+.muxycheer {
+    right: 0px;
+    bottom: 81px;
 }
 
 .nowplaying {
@@ -65,7 +70,7 @@ header .medias i {
     left: 500px;
 }
 
-.followeralert, .tipalert {
+.followeralert, .tipalert, .muxyalert {
     top: 200px;
     left: 416px;
 }
